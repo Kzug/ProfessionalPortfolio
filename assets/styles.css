@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6, span {
     line-height: 1.25;
 }
 
+h1 {
+    font-size: 36px;
+};
+
 p {
     line-height: 1.5;
     font-size: 16px;
@@ -30,6 +34,10 @@ p {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.text-purple {
+    color: #6030b1;
 }
 
 /* NAVIGATION BAR */
@@ -84,6 +92,11 @@ nav {
     flex-direction: column;
 }
 
+.about-me-info-para {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
 .about-me-info-container {
     display: flex;
     flex-direction: column;
@@ -94,8 +107,11 @@ nav {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .about-me-picture {
-    width: 100%;
+    width: 100px;
+    transform: scale(1.1) translate(3px, -9px);
+  
 }
