@@ -44,8 +44,12 @@ a {
     margin: 0 auto;
 }
 
-.text-purple {
-    color: #6030b1;
+/* .text-purple {
+    color: #07A0C3;
+} */
+
+.text-bluegreen {
+    color: #07A0C3;
 }
 
 section:nth-child(even){
@@ -83,7 +87,7 @@ nav {
 }
 
 .nav-link-anchor-primary {
-    background-color: #6030b1;
+    background-color: #07A0C3;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -96,7 +100,7 @@ nav {
 
 .personal-logo {
     font-size: 24px;
-    color: #6030b1;
+    color: #07a0c3;
     margin: 0 12px;
     font-weight: bold;
 }
@@ -124,13 +128,13 @@ nav {
     flex-direction: column;
     align-items: center;
     max-width: 750px;
-    margin: 0 auto;
+    margin: 0px 0px 10px 0px;
     text-align: center;
 }
 
 .about-me-picture-mask {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0,0,0,0.16);
@@ -143,7 +147,7 @@ nav {
 
 .about-me-picture {
     width: 100px;
-    transform: scale(1.1) translate(3px, -9px);
+    transform: scale(2.1) translate(2px, 15px);
   
 }
 
@@ -279,6 +283,12 @@ nav {
     margin-right: 16px;
 }
 
+.githubproj {
+   color: white;
+   font-size: 16px;
+   margin-right:10px;
+}
+
 /* FOOTER */
 
 footer {
@@ -296,6 +306,15 @@ justify-content: center;
 .footer-social-link {
 color: #fff;
 font-size: 24px;
+margin-bottom:16px;
+}
+
+.credit{
+    color:grey;
+}
+
+.creditlink {
+    color:#07a0c3;
 }
 
 .footer-social-list {
@@ -305,3 +324,4 @@ font-size: 24px;
     display: flex;
     justify-content: space-around;
 }
+
