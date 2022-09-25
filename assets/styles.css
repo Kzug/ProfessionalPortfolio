@@ -68,9 +68,19 @@ li {
 /* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
     nav {
-max-width: 768px;
+        justify-content: left;
+    }
+
+    nav li {
+        width: 25%;
     }
   }
+/* 
+  @media screen and (max-width: 576px) {
+    nav {
+        max-width: 576px;
+    }
+} */
 
 nav {
     height: 100px;
@@ -231,7 +241,7 @@ nav {
     display: flex;
     box-shadow:0 20px 90px rgba(0,0,0,0.45);
     border-radius: 20px;
-    height: 600px;
+    margin: 5px;
     overflow: hidden;
     position: relative;
 }
