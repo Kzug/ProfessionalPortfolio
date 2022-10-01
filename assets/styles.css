@@ -65,14 +65,36 @@ li {
     list-style-type: none;
 }
 
+/* Large smartphones - navbar changes color */
+/* @media screen and (max-width: 768px) {
+    nav {
+        justify-content: left;
+    }
+
+    nav li {
+        width: 25%;
+    }
+  } */
+/* 
+  @media screen and (max-width: 576px) {
+    nav {
+        max-width: 576px;
+    }
+} */
+
 nav {
     height: 100px;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap:wrap;
+}
+
+.languagebutton {
+    white-space:nowrap;
 }
 
 .nav-link-list {
@@ -224,7 +246,7 @@ nav {
     display: flex;
     box-shadow:0 20px 90px rgba(0,0,0,0.45);
     border-radius: 20px;
-    height: 600px;
+    margin: 5px;
     overflow: hidden;
     position: relative;
 }
